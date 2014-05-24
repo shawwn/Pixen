@@ -610,6 +610,48 @@
 		D88FA9A113DD265000175A2F /* NSObject+AssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = D88FA99F13DD265000175A2F /* NSObject+AssociatedObjects.h */; };
 		D88FA9A213DD265000175A2F /* NSObject+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = D88FA9A013DD265000175A2F /* NSObject+AssociatedObjects.m */; };
 		D8B300DC13AFC443004E83F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B300DB13AFC443004E83F3 /* QuartzCore.framework */; };
+		DE2D94241930532500C5C915 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93D21930532500C5C915 /* Credits.html */; };
+		DE2D94251930532500C5C915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93D41930532500C5C915 /* InfoPlist.strings */; };
+		DE2D94261930532500C5C915 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93D61930532500C5C915 /* Localizable.strings */; };
+		DE2D94271930532500C5C915 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93D81930532500C5C915 /* MainMenu.xib */; };
+		DE2D94281930532500C5C915 /* OSProgressPopup.nib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93DA1930532500C5C915 /* OSProgressPopup.nib */; };
+		DE2D94291930532500C5C915 /* PXAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93DC1930532500C5C915 /* PXAbout.xib */; };
+		DE2D942A1930532500C5C915 /* PXAnimationDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93DE1930532500C5C915 /* PXAnimationDocument.xib */; };
+		DE2D942B1930532500C5C915 /* PXBackgroundController.nib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93E01930532500C5C915 /* PXBackgroundController.nib */; };
+		DE2D942C1930532500C5C915 /* PXBackgroundTemplateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93E21930532500C5C915 /* PXBackgroundTemplateView.xib */; };
+		DE2D942D1930532500C5C915 /* PXBlankPropertiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93E41930532500C5C915 /* PXBlankPropertiesView.xib */; };
+		DE2D942E1930532500C5C915 /* PXCanvasDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93E61930532500C5C915 /* PXCanvasDocument.xib */; };
+		DE2D942F1930532500C5C915 /* PXCanvasResizePrompt.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93E81930532500C5C915 /* PXCanvasResizePrompt.xib */; };
+		DE2D94301930532500C5C915 /* PXDiscoverPixen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93EA1930532500C5C915 /* PXDiscoverPixen.xib */; };
+		DE2D94311930532500C5C915 /* PXDuotoneBackgroundConfigurator.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93EC1930532500C5C915 /* PXDuotoneBackgroundConfigurator.xib */; };
+		DE2D94321930532500C5C915 /* PXEyedropperToolPropertiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93EE1930532500C5C915 /* PXEyedropperToolPropertiesView.xib */; };
+		DE2D94331930532500C5C915 /* PXFillToolPropertiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93F01930532500C5C915 /* PXFillToolPropertiesView.xib */; };
+		DE2D94341930532500C5C915 /* PXGeneralPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93F21930532500C5C915 /* PXGeneralPreferences.xib */; };
+		DE2D94351930532500C5C915 /* PXGridSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93F41930532500C5C915 /* PXGridSettings.xib */; };
+		DE2D94361930532500C5C915 /* PXHotkeysPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93F61930532500C5C915 /* PXHotkeysPreferences.xib */; };
+		DE2D94371930532500C5C915 /* PXImageBackgroundConfigurator.nib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93F81930532500C5C915 /* PXImageBackgroundConfigurator.nib */; };
+		DE2D94381930532500C5C915 /* PXImageSizePrompt.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93FA1930532500C5C915 /* PXImageSizePrompt.xib */; };
+		DE2D94391930532500C5C915 /* PXInfoPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93FC1930532500C5C915 /* PXInfoPanel.xib */; };
+		DE2D943A1930532500C5C915 /* PXLayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D93FE1930532500C5C915 /* PXLayerController.xib */; };
+		DE2D943B1930532500C5C915 /* PXManagePresetsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94001930532500C5C915 /* PXManagePresetsWindow.xib */; };
+		DE2D943C1930532500C5C915 /* PXMonotoneBackgroundConfigurator.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94021930532500C5C915 /* PXMonotoneBackgroundConfigurator.xib */; };
+		DE2D943D1930532500C5C915 /* PXNamePrompt.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94041930532500C5C915 /* PXNamePrompt.xib */; };
+		DE2D943E1930532500C5C915 /* PXPalette.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94061930532500C5C915 /* PXPalette.xib */; };
+		DE2D943F1930532500C5C915 /* PXPaletteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94081930532500C5C915 /* PXPaletteController.xib */; };
+		DE2D94401930532500C5C915 /* PXPatternEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D940A1930532500C5C915 /* PXPatternEditor.xib */; };
+		DE2D94411930532500C5C915 /* PXPatternItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D940C1930532500C5C915 /* PXPatternItem.xib */; };
+		DE2D94421930532500C5C915 /* PXPatternSizeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D940E1930532500C5C915 /* PXPatternSizeWindow.xib */; };
+		DE2D94431930532500C5C915 /* PXPencilToolPropertiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94101930532500C5C915 /* PXPencilToolPropertiesView.xib */; };
+		DE2D94441930532500C5C915 /* PXPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94121930532500C5C915 /* PXPreferences.xib */; };
+		DE2D94451930532500C5C915 /* PXPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94141930532500C5C915 /* PXPreview.xib */; };
+		DE2D94461930532500C5C915 /* PXPreviewResizePrompt.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94161930532500C5C915 /* PXPreviewResizePrompt.xib */; };
+		DE2D94471930532500C5C915 /* PXScalePrompt.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94181930532500C5C915 /* PXScalePrompt.xib */; };
+		DE2D94481930532500C5C915 /* PXSelectPattern.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D941A1930532500C5C915 /* PXSelectPattern.xib */; };
+		DE2D94491930532500C5C915 /* PXSequenceExportView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D941C1930532500C5C915 /* PXSequenceExportView.xib */; };
+		DE2D944A1930532500C5C915 /* PXShapeToolPropertiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D941E1930532500C5C915 /* PXShapeToolPropertiesView.xib */; };
+		DE2D944B1930532500C5C915 /* PXSpriteSheetExporter.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94201930532500C5C915 /* PXSpriteSheetExporter.xib */; };
+		DE2D944C1930532500C5C915 /* PXToolPalette.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2D94221930532500C5C915 /* PXToolPalette.xib */; };
+		DE2D9486193053E700C5C915 /* PixenIntro_ja in Resources */ = {isa = PBXBuildFile; fileRef = DE2D9485193053E700C5C915 /* PixenIntro_ja */; };
 		EA041A190CE8F72F0095DAA9 /* PXBackgroundConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EA041A170CE8F72F0095DAA9 /* PXBackgroundConfig.h */; };
 		EA041A1A0CE8F72F0095DAA9 /* PXBackgroundConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EA041A180CE8F72F0095DAA9 /* PXBackgroundConfig.m */; };
 		EA2EA41B10DB37E50065090C /* NSString+Comparison.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2EA41910DB37E50065090C /* NSString+Comparison.h */; };
@@ -1173,6 +1215,48 @@
 		D88FA99F13DD265000175A2F /* NSObject+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObjects.h"; sourceTree = "<group>"; };
 		D88FA9A013DD265000175A2F /* NSObject+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObjects.m"; sourceTree = "<group>"; };
 		D8B300DB13AFC443004E83F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DE2D93D31930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Japanese; path = Credits.html; sourceTree = "<group>"; };
+		DE2D93D51930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = InfoPlist.strings; sourceTree = "<group>"; };
+		DE2D93D71930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Localizable.strings; sourceTree = "<group>"; };
+		DE2D93D91930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = MainMenu.xib; sourceTree = "<group>"; };
+		DE2D93DB1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = OSProgressPopup.nib; sourceTree = "<group>"; };
+		DE2D93DD1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXAbout.xib; sourceTree = "<group>"; };
+		DE2D93DF1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXAnimationDocument.xib; sourceTree = "<group>"; };
+		DE2D93E11930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = PXBackgroundController.nib; sourceTree = "<group>"; };
+		DE2D93E31930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXBackgroundTemplateView.xib; sourceTree = "<group>"; };
+		DE2D93E51930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXBlankPropertiesView.xib; sourceTree = "<group>"; };
+		DE2D93E71930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXCanvasDocument.xib; sourceTree = "<group>"; };
+		DE2D93E91930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXCanvasResizePrompt.xib; sourceTree = "<group>"; };
+		DE2D93EB1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXDiscoverPixen.xib; sourceTree = "<group>"; };
+		DE2D93ED1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXDuotoneBackgroundConfigurator.xib; sourceTree = "<group>"; };
+		DE2D93EF1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXEyedropperToolPropertiesView.xib; sourceTree = "<group>"; };
+		DE2D93F11930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXFillToolPropertiesView.xib; sourceTree = "<group>"; };
+		DE2D93F31930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXGeneralPreferences.xib; sourceTree = "<group>"; };
+		DE2D93F51930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXGridSettings.xib; sourceTree = "<group>"; };
+		DE2D93F71930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXHotkeysPreferences.xib; sourceTree = "<group>"; };
+		DE2D93F91930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = PXImageBackgroundConfigurator.nib; sourceTree = "<group>"; };
+		DE2D93FB1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXImageSizePrompt.xib; sourceTree = "<group>"; };
+		DE2D93FD1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXInfoPanel.xib; sourceTree = "<group>"; };
+		DE2D93FF1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXLayerController.xib; sourceTree = "<group>"; };
+		DE2D94011930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXManagePresetsWindow.xib; sourceTree = "<group>"; };
+		DE2D94031930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXMonotoneBackgroundConfigurator.xib; sourceTree = "<group>"; };
+		DE2D94051930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXNamePrompt.xib; sourceTree = "<group>"; };
+		DE2D94071930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPalette.xib; sourceTree = "<group>"; };
+		DE2D94091930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPaletteController.xib; sourceTree = "<group>"; };
+		DE2D940B1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPatternEditor.xib; sourceTree = "<group>"; };
+		DE2D940D1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPatternItem.xib; sourceTree = "<group>"; };
+		DE2D940F1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPatternSizeWindow.xib; sourceTree = "<group>"; };
+		DE2D94111930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPencilToolPropertiesView.xib; sourceTree = "<group>"; };
+		DE2D94131930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPreferences.xib; sourceTree = "<group>"; };
+		DE2D94151930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPreview.xib; sourceTree = "<group>"; };
+		DE2D94171930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXPreviewResizePrompt.xib; sourceTree = "<group>"; };
+		DE2D94191930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXScalePrompt.xib; sourceTree = "<group>"; };
+		DE2D941B1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXSelectPattern.xib; sourceTree = "<group>"; };
+		DE2D941D1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXSequenceExportView.xib; sourceTree = "<group>"; };
+		DE2D941F1930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXShapeToolPropertiesView.xib; sourceTree = "<group>"; };
+		DE2D94211930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXSpriteSheetExporter.xib; sourceTree = "<group>"; };
+		DE2D94231930532500C5C915 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = PXToolPalette.xib; sourceTree = "<group>"; };
+		DE2D9485193053E700C5C915 /* PixenIntro_ja */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PixenIntro_ja; path = Resources/PixenIntro_ja; sourceTree = SOURCE_ROOT; };
 		EA041A170CE8F72F0095DAA9 /* PXBackgroundConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBackgroundConfig.h; sourceTree = "<group>"; };
 		EA041A180CE8F72F0095DAA9 /* PXBackgroundConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXBackgroundConfig.m; sourceTree = "<group>"; };
 		EA2EA41910DB37E50065090C /* NSString+Comparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Comparison.h"; sourceTree = "<group>"; };
@@ -1573,6 +1657,7 @@
 				EA31FBEB0CE7D7C200EC481B /* Other Sources */,
 				EAC916DF0CE7DC7300E519E1 /* Resources */,
 				EA90F6CC06D1239C001755A6 /* Localizable Resources */,
+				DE2D93D11930532500C5C915 /* Localized Resource(Japanese) */,
 				C98182C814F0212C0052616F /* Tests */,
 				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
 				19C28FB0FE9D524F11CA2CBB /* Products */,
@@ -1666,6 +1751,64 @@
 				D88FA9A013DD265000175A2F /* NSObject+AssociatedObjects.m */,
 			);
 			path = AMAssociatedObject;
+			sourceTree = "<group>";
+		};
+		DE2D93D11930532500C5C915 /* Localized Resource(Japanese) */ = {
+			isa = PBXGroup;
+			children = (
+				DE2D9485193053E700C5C915 /* PixenIntro_ja */,
+				DE2D93D21930532500C5C915 /* Credits.html */,
+				DE2D93D41930532500C5C915 /* InfoPlist.strings */,
+				DE2D93D61930532500C5C915 /* Localizable.strings */,
+				DE2D944D1930539600C5C915 /* NIBs */,
+			);
+			name = "Localized Resource(Japanese)";
+			path = Japanese.lproj;
+			sourceTree = "<group>";
+		};
+		DE2D944D1930539600C5C915 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				DE2D93D81930532500C5C915 /* MainMenu.xib */,
+				DE2D93DA1930532500C5C915 /* OSProgressPopup.nib */,
+				DE2D93DC1930532500C5C915 /* PXAbout.xib */,
+				DE2D93DE1930532500C5C915 /* PXAnimationDocument.xib */,
+				DE2D93E01930532500C5C915 /* PXBackgroundController.nib */,
+				DE2D93E21930532500C5C915 /* PXBackgroundTemplateView.xib */,
+				DE2D93E41930532500C5C915 /* PXBlankPropertiesView.xib */,
+				DE2D93E61930532500C5C915 /* PXCanvasDocument.xib */,
+				DE2D93E81930532500C5C915 /* PXCanvasResizePrompt.xib */,
+				DE2D93EA1930532500C5C915 /* PXDiscoverPixen.xib */,
+				DE2D93EC1930532500C5C915 /* PXDuotoneBackgroundConfigurator.xib */,
+				DE2D93EE1930532500C5C915 /* PXEyedropperToolPropertiesView.xib */,
+				DE2D93F01930532500C5C915 /* PXFillToolPropertiesView.xib */,
+				DE2D93F21930532500C5C915 /* PXGeneralPreferences.xib */,
+				DE2D93F41930532500C5C915 /* PXGridSettings.xib */,
+				DE2D93F61930532500C5C915 /* PXHotkeysPreferences.xib */,
+				DE2D93F81930532500C5C915 /* PXImageBackgroundConfigurator.nib */,
+				DE2D93FA1930532500C5C915 /* PXImageSizePrompt.xib */,
+				DE2D93FC1930532500C5C915 /* PXInfoPanel.xib */,
+				DE2D93FE1930532500C5C915 /* PXLayerController.xib */,
+				DE2D94001930532500C5C915 /* PXManagePresetsWindow.xib */,
+				DE2D94021930532500C5C915 /* PXMonotoneBackgroundConfigurator.xib */,
+				DE2D94041930532500C5C915 /* PXNamePrompt.xib */,
+				DE2D94061930532500C5C915 /* PXPalette.xib */,
+				DE2D94081930532500C5C915 /* PXPaletteController.xib */,
+				DE2D940A1930532500C5C915 /* PXPatternEditor.xib */,
+				DE2D940C1930532500C5C915 /* PXPatternItem.xib */,
+				DE2D940E1930532500C5C915 /* PXPatternSizeWindow.xib */,
+				DE2D94101930532500C5C915 /* PXPencilToolPropertiesView.xib */,
+				DE2D94121930532500C5C915 /* PXPreferences.xib */,
+				DE2D94141930532500C5C915 /* PXPreview.xib */,
+				DE2D94161930532500C5C915 /* PXPreviewResizePrompt.xib */,
+				DE2D94181930532500C5C915 /* PXScalePrompt.xib */,
+				DE2D941A1930532500C5C915 /* PXSelectPattern.xib */,
+				DE2D941C1930532500C5C915 /* PXSequenceExportView.xib */,
+				DE2D941E1930532500C5C915 /* PXShapeToolPropertiesView.xib */,
+				DE2D94201930532500C5C915 /* PXSpriteSheetExporter.xib */,
+				DE2D94221930532500C5C915 /* PXToolPalette.xib */,
+			);
+			name = NIBs;
 			sourceTree = "<group>";
 		};
 		EA31F6640CE7A69D00EC481B /* Grid */ = {
@@ -2939,6 +3082,7 @@
 				en,
 				English,
 				French,
+				Japanese,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Pixen */;
 			projectDirPath = "";
@@ -3094,6 +3238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2D94361930532500C5C915 /* PXHotkeysPreferences.xib in Resources */,
+				DE2D94351930532500C5C915 /* PXGridSettings.xib in Resources */,
+				DE2D94391930532500C5C915 /* PXInfoPanel.xib in Resources */,
 				EAF6946306A9AE0B0019D8D7 /* Credits.html in Resources */,
 				EAF6946606A9AE0B0019D8D7 /* InfoPlist.strings in Resources */,
 				EAF6947806A9AE0B0019D8D7 /* PXBackgroundController.nib in Resources */,
@@ -3102,28 +3249,43 @@
 				EAF6947B06A9AE0B0019D8D7 /* PXImageBackgroundConfigurator.nib in Resources */,
 				EAF6947D06A9AE0B0019D8D7 /* PXNamePrompt.xib in Resources */,
 				EAF6947F06A9AE0B0019D8D7 /* PXLayerController.xib in Resources */,
+				DE2D94491930532500C5C915 /* PXSequenceExportView.xib in Resources */,
 				EAF6949D06A9AE0B0019D8D7 /* Localizable.strings in Resources */,
+				DE2D94251930532500C5C915 /* InfoPlist.strings in Resources */,
+				DE2D94481930532500C5C915 /* PXSelectPattern.xib in Resources */,
 				EAF694B606A9AE0B0019D8D7 /* PXScalePrompt.xib in Resources */,
 				619DC353085BCD37007EF7F7 /* PXPreviewResizePrompt.xib in Resources */,
 				EACDBD810878B37100564512 /* PXBackgroundTemplateView.xib in Resources */,
 				61A956BC08AD76CF009BB89F /* OSProgressPopup.nib in Resources */,
+				DE2D94301930532500C5C915 /* PXDiscoverPixen.xib in Resources */,
+				DE2D94401930532500C5C915 /* PXPatternEditor.xib in Resources */,
+				DE2D9486193053E700C5C915 /* PixenIntro_ja in Resources */,
+				DE2D94411930532500C5C915 /* PXPatternItem.xib in Resources */,
 				61FED6C408BCC646005E51EA /* PXSequenceExportView.xib in Resources */,
+				DE2D943C1930532500C5C915 /* PXMonotoneBackgroundConfigurator.xib in Resources */,
+				DE2D94371930532500C5C915 /* PXImageBackgroundConfigurator.nib in Resources */,
 				EAC9174C0CE7DC7300E519E1 /* Pixen.icns in Resources */,
 				EAC9174F0CE7DC7300E519E1 /* PixenDoc.icns in Resources */,
 				EAC917530CE7DC7300E519E1 /* apencil.png in Resources */,
 				EAC917540CE7DC7300E519E1 /* ellipse.png in Resources */,
+				DE2D943E1930532500C5C915 /* PXPalette.xib in Resources */,
+				DE2D942A1930532500C5C915 /* PXAnimationDocument.xib in Resources */,
 				EAC917550CE7DC7300E519E1 /* eraser.png in Resources */,
 				EAC917560CE7DC7300E519E1 /* eyedropper.png in Resources */,
 				EAC917590CE7DC7300E519E1 /* lasso.png in Resources */,
 				EAC9175A0CE7DC7300E519E1 /* lassoadd.png in Resources */,
 				EAC9175B0CE7DC7300E519E1 /* lassosubtract.png in Resources */,
 				EAC9175C0CE7DC7300E519E1 /* linetool.png in Resources */,
+				DE2D94321930532500C5C915 /* PXEyedropperToolPropertiesView.xib in Resources */,
 				EAC9175D0CE7DC7300E519E1 /* magic.png in Resources */,
 				EAC9175E0CE7DC7300E519E1 /* magicadd.png in Resources */,
 				EAC9175F0CE7DC7300E519E1 /* magicsubtract.png in Resources */,
 				EAC917600CE7DC7300E519E1 /* move.png in Resources */,
+				DE2D942D1930532500C5C915 /* PXBlankPropertiesView.xib in Resources */,
 				EAC917610CE7DC7300E519E1 /* paintbrush.png in Resources */,
 				EAC917620CE7DC7300E519E1 /* paintbucket.png in Resources */,
+				DE2D942E1930532500C5C915 /* PXCanvasDocument.xib in Resources */,
+				DE2D94461930532500C5C915 /* PXPreviewResizePrompt.xib in Resources */,
 				EAC917630CE7DC7300E519E1 /* pencil.png in Resources */,
 				EAC917640CE7DC7300E519E1 /* rectangle.png in Resources */,
 				EAC917660CE7DC7300E519E1 /* squareselect.png in Resources */,
@@ -3131,21 +3293,29 @@
 				EAC917680CE7DC7300E519E1 /* squareselectsubtract.png in Resources */,
 				EAC9176A0CE7DC7300E519E1 /* zoomIn.png in Resources */,
 				EAC9176B0CE7DC7300E519E1 /* zoomOut.png in Resources */,
+				DE2D943D1930532500C5C915 /* PXNamePrompt.xib in Resources */,
 				EAC9176C0CE7DC7300E519E1 /* bgconf.png in Resources */,
 				EAC9176D0CE7DC7300E519E1 /* colorpalette.png in Resources */,
+				DE2D942B1930532500C5C915 /* PXBackgroundController.nib in Resources */,
+				DE2D94441930532500C5C915 /* PXPreferences.xib in Resources */,
 				EAC9176E0CE7DC7300E519E1 /* feedback.png in Resources */,
 				EAC917700CE7DC7300E519E1 /* layerdrawer.png in Resources */,
 				EAC917710CE7DC7300E519E1 /* preview.png in Resources */,
 				EAC917720CE7DC7300E519E1 /* resize.png in Resources */,
+				DE2D94341930532500C5C915 /* PXGeneralPreferences.xib in Resources */,
 				EAC917730CE7DC7300E519E1 /* scale.png in Resources */,
 				EAC917740CE7DC7300E519E1 /* toolproperties.png in Resources */,
 				EAC917750CE7DC7300E519E1 /* zoom100.png in Resources */,
 				EAC917760CE7DC7300E519E1 /* zoomfit.png in Resources */,
 				EAC917850CE7DC7300E519E1 /* Pixen.scriptSuite in Resources */,
 				EAC917860CE7DC7300E519E1 /* Pixen.scriptTerminology in Resources */,
+				DE2D943B1930532500C5C915 /* PXManagePresetsWindow.xib in Resources */,
+				DE2D94451930532500C5C915 /* PXPreview.xib in Resources */,
 				EAC917890CE7DC7300E519E1 /* ants.tiff in Resources */,
 				EAB650860D108D9000274070 /* PXPaletteController.xib in Resources */,
 				61A22A070D20715100430CCD /* History.tiff in Resources */,
+				DE2D942C1930532500C5C915 /* PXBackgroundTemplateView.xib in Resources */,
+				DE2D94291930532500C5C915 /* PXAbout.xib in Resources */,
 				61A22A240D2073E500430CCD /* Frequency.tiff in Resources */,
 				C93DB17F13ABC6BE006D42FE /* PXPreferences.xib in Resources */,
 				C93DB18213ABC8BE006D42FE /* PXGeneralPreferences.xib in Resources */,
@@ -3153,11 +3323,17 @@
 				C9A6BE1A13AD008C0028B141 /* PXBlankPropertiesView.xib in Resources */,
 				C9A6BE1D13AD07B10028B141 /* PXFillToolPropertiesView.xib in Resources */,
 				C9799FB013AD69C000E261EE /* PXShapeToolPropertiesView.xib in Resources */,
+				DE2D94311930532500C5C915 /* PXDuotoneBackgroundConfigurator.xib in Resources */,
+				DE2D94281930532500C5C915 /* OSProgressPopup.nib in Resources */,
+				DE2D94471930532500C5C915 /* PXScalePrompt.xib in Resources */,
 				C9799FB813AD6ED900E261EE /* PXPencilToolPropertiesView.xib in Resources */,
+				DE2D94261930532500C5C915 /* Localizable.strings in Resources */,
 				C9799FBB13AD745500E261EE /* PXEyedropperToolPropertiesView.xib in Resources */,
 				C9FEE51B13AF81AF004FFC3C /* PXGridSettings.xib in Resources */,
+				DE2D943F1930532500C5C915 /* PXPaletteController.xib in Resources */,
 				C984251213AFC142000072C5 /* PXPreview.xib in Resources */,
 				C94A9EDA13B114DE0034AFE3 /* PXCanvasDocument.xib in Resources */,
+				DE2D942F1930532500C5C915 /* PXCanvasResizePrompt.xib in Resources */,
 				C92A1E9213B12CAB0007235A /* MainMenu.xib in Resources */,
 				C9DC4D9B13D0E6D70065C1A6 /* PXImageSizePrompt.xib in Resources */,
 				C940AECD13D52E8700724CC0 /* paintbucket_bw.png in Resources */,
@@ -3165,6 +3341,7 @@
 				C9E088A613D5BF17002A0AD4 /* zoomIn_bw.png in Resources */,
 				C9E088A813D5C03D002A0AD4 /* eyedropper_bw.png in Resources */,
 				C912F26D13D5CDC100C0CF29 /* PXSpriteSheetExporter.xib in Resources */,
+				DE2D94431930532500C5C915 /* PXPencilToolPropertiesView.xib in Resources */,
 				C9B1FA5E13D732FC00BB7CF7 /* PXManagePresetsWindow.xib in Resources */,
 				C9A0858E13DE3EB600C27061 /* PXDiscoverPixen.xib in Resources */,
 				C9A0859313DE3F0100C27061 /* PixenIntro in Resources */,
@@ -3175,30 +3352,39 @@
 				C968A8E114A5292700905E3D /* Pixen128.png in Resources */,
 				C985C89914C119DF0091EF22 /* PXCanvasResizePrompt.xib in Resources */,
 				C903DADE14CBBD6800D82028 /* dsa_pub.pem in Resources */,
+				DE2D94331930532500C5C915 /* PXFillToolPropertiesView.xib in Resources */,
 				C97C7F0E14EF17DA0089A637 /* PixenPalette.icns in Resources */,
 				C9AD353D1506DD7800A4B25C /* Defaults.plist in Resources */,
 				C900F4BE1509882F00DC6702 /* PXToolPalette.xib in Resources */,
 				C9ECD4D6150BECB6001F686C /* PXAbout.xib in Resources */,
 				C973F0D8152B93810084A158 /* PXAnimationDocument.xib in Resources */,
+				DE2D94381930532500C5C915 /* PXImageSizePrompt.xib in Resources */,
 				C99236FA152CD1F000EC3AE5 /* Previous.png in Resources */,
 				C99236FC152CD37400EC3AE5 /* Next.png in Resources */,
 				C99236FE152CD6AB00EC3AE5 /* Play.png in Resources */,
 				C9923700152CDD0000EC3AE5 /* Pause.png in Resources */,
 				C9F4AA30154F5BB200C922CC /* zoomOut_bw.png in Resources */,
 				C9BA174015A5CFDC008BC323 /* ImageSizeInfo.png in Resources */,
+				DE2D943A1930532500C5C915 /* PXLayerController.xib in Resources */,
 				C9BA174115A5CFDC008BC323 /* ImageSizeInfo@2x.png in Resources */,
+				DE2D94421930532500C5C915 /* PXPatternSizeWindow.xib in Resources */,
 				C94FA7BE15A5DE18000FA307 /* TitlebarGradient.png in Resources */,
 				C94FA7BF15A5DE18000FA307 /* TitlebarGradient@2x.png in Resources */,
 				C92C281D15B2711900E68937 /* Pixen128@2x.png in Resources */,
 				C9BFCC7F15C3011400016E09 /* Popout.png in Resources */,
 				C9BFCC8015C3011400016E09 /* Popout@2x.png in Resources */,
+				DE2D944A1930532500C5C915 /* PXShapeToolPropertiesView.xib in Resources */,
 				C9BFCC8C15C3051000016E09 /* PXPalette.xib in Resources */,
 				C95B209415C353F7003D6C2A /* Hotkeys.png in Resources */,
 				C95B209615C357F9003D6C2A /* Hotkeys@2x.png in Resources */,
+				DE2D94271930532500C5C915 /* MainMenu.xib in Resources */,
+				DE2D944B1930532500C5C915 /* PXSpriteSheetExporter.xib in Resources */,
 				C9C3B51B15C6FB6F00BA5E0B /* RegularSize.png in Resources */,
 				C9C3B51C15C6FB6F00BA5E0B /* RegularSize@2x.png in Resources */,
 				C9C3B51D15C6FB6F00BA5E0B /* SmallSize.png in Resources */,
 				C9C3B51E15C6FB6F00BA5E0B /* SmallSize@2x.png in Resources */,
+				DE2D944C1930532500C5C915 /* PXToolPalette.xib in Resources */,
+				DE2D94241930532500C5C915 /* Credits.html in Resources */,
 				C9606B3B16D9CA0D0080ABF8 /* PXSelectPattern.xib in Resources */,
 				C982819516DBD71E00CD6831 /* PXPatternSizeWindow.xib in Resources */,
 				C98D975116DD3FF7008B3170 /* PixenPattern.icns in Resources */,
@@ -3878,6 +4064,334 @@
 				C9FEE51A13AF81AF004FFC3C /* English */,
 			);
 			name = PXGridSettings.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93D21930532500C5C915 /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93D31930532500C5C915 /* Japanese */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		DE2D93D41930532500C5C915 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93D51930532500C5C915 /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE2D93D61930532500C5C915 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93D71930532500C5C915 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DE2D93D81930532500C5C915 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93D91930532500C5C915 /* Japanese */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93DA1930532500C5C915 /* OSProgressPopup.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93DB1930532500C5C915 /* Japanese */,
+			);
+			name = OSProgressPopup.nib;
+			sourceTree = "<group>";
+		};
+		DE2D93DC1930532500C5C915 /* PXAbout.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93DD1930532500C5C915 /* Japanese */,
+			);
+			name = PXAbout.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93DE1930532500C5C915 /* PXAnimationDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93DF1930532500C5C915 /* Japanese */,
+			);
+			name = PXAnimationDocument.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93E01930532500C5C915 /* PXBackgroundController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93E11930532500C5C915 /* Japanese */,
+			);
+			name = PXBackgroundController.nib;
+			sourceTree = "<group>";
+		};
+		DE2D93E21930532500C5C915 /* PXBackgroundTemplateView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93E31930532500C5C915 /* Japanese */,
+			);
+			name = PXBackgroundTemplateView.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93E41930532500C5C915 /* PXBlankPropertiesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93E51930532500C5C915 /* Japanese */,
+			);
+			name = PXBlankPropertiesView.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93E61930532500C5C915 /* PXCanvasDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93E71930532500C5C915 /* Japanese */,
+			);
+			name = PXCanvasDocument.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93E81930532500C5C915 /* PXCanvasResizePrompt.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93E91930532500C5C915 /* Japanese */,
+			);
+			name = PXCanvasResizePrompt.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93EA1930532500C5C915 /* PXDiscoverPixen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93EB1930532500C5C915 /* Japanese */,
+			);
+			name = PXDiscoverPixen.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93EC1930532500C5C915 /* PXDuotoneBackgroundConfigurator.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93ED1930532500C5C915 /* Japanese */,
+			);
+			name = PXDuotoneBackgroundConfigurator.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93EE1930532500C5C915 /* PXEyedropperToolPropertiesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93EF1930532500C5C915 /* Japanese */,
+			);
+			name = PXEyedropperToolPropertiesView.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93F01930532500C5C915 /* PXFillToolPropertiesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93F11930532500C5C915 /* Japanese */,
+			);
+			name = PXFillToolPropertiesView.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93F21930532500C5C915 /* PXGeneralPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93F31930532500C5C915 /* Japanese */,
+			);
+			name = PXGeneralPreferences.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93F41930532500C5C915 /* PXGridSettings.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93F51930532500C5C915 /* Japanese */,
+			);
+			name = PXGridSettings.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93F61930532500C5C915 /* PXHotkeysPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93F71930532500C5C915 /* Japanese */,
+			);
+			name = PXHotkeysPreferences.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93F81930532500C5C915 /* PXImageBackgroundConfigurator.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93F91930532500C5C915 /* Japanese */,
+			);
+			name = PXImageBackgroundConfigurator.nib;
+			sourceTree = "<group>";
+		};
+		DE2D93FA1930532500C5C915 /* PXImageSizePrompt.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93FB1930532500C5C915 /* Japanese */,
+			);
+			name = PXImageSizePrompt.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93FC1930532500C5C915 /* PXInfoPanel.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93FD1930532500C5C915 /* Japanese */,
+			);
+			name = PXInfoPanel.xib;
+			sourceTree = "<group>";
+		};
+		DE2D93FE1930532500C5C915 /* PXLayerController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D93FF1930532500C5C915 /* Japanese */,
+			);
+			name = PXLayerController.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94001930532500C5C915 /* PXManagePresetsWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94011930532500C5C915 /* Japanese */,
+			);
+			name = PXManagePresetsWindow.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94021930532500C5C915 /* PXMonotoneBackgroundConfigurator.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94031930532500C5C915 /* Japanese */,
+			);
+			name = PXMonotoneBackgroundConfigurator.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94041930532500C5C915 /* PXNamePrompt.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94051930532500C5C915 /* Japanese */,
+			);
+			name = PXNamePrompt.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94061930532500C5C915 /* PXPalette.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94071930532500C5C915 /* Japanese */,
+			);
+			name = PXPalette.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94081930532500C5C915 /* PXPaletteController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94091930532500C5C915 /* Japanese */,
+			);
+			name = PXPaletteController.xib;
+			sourceTree = "<group>";
+		};
+		DE2D940A1930532500C5C915 /* PXPatternEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D940B1930532500C5C915 /* Japanese */,
+			);
+			name = PXPatternEditor.xib;
+			sourceTree = "<group>";
+		};
+		DE2D940C1930532500C5C915 /* PXPatternItem.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D940D1930532500C5C915 /* Japanese */,
+			);
+			name = PXPatternItem.xib;
+			sourceTree = "<group>";
+		};
+		DE2D940E1930532500C5C915 /* PXPatternSizeWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D940F1930532500C5C915 /* Japanese */,
+			);
+			name = PXPatternSizeWindow.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94101930532500C5C915 /* PXPencilToolPropertiesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94111930532500C5C915 /* Japanese */,
+			);
+			name = PXPencilToolPropertiesView.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94121930532500C5C915 /* PXPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94131930532500C5C915 /* Japanese */,
+			);
+			name = PXPreferences.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94141930532500C5C915 /* PXPreview.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94151930532500C5C915 /* Japanese */,
+			);
+			name = PXPreview.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94161930532500C5C915 /* PXPreviewResizePrompt.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94171930532500C5C915 /* Japanese */,
+			);
+			name = PXPreviewResizePrompt.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94181930532500C5C915 /* PXScalePrompt.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94191930532500C5C915 /* Japanese */,
+			);
+			name = PXScalePrompt.xib;
+			sourceTree = "<group>";
+		};
+		DE2D941A1930532500C5C915 /* PXSelectPattern.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D941B1930532500C5C915 /* Japanese */,
+			);
+			name = PXSelectPattern.xib;
+			sourceTree = "<group>";
+		};
+		DE2D941C1930532500C5C915 /* PXSequenceExportView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D941D1930532500C5C915 /* Japanese */,
+			);
+			name = PXSequenceExportView.xib;
+			sourceTree = "<group>";
+		};
+		DE2D941E1930532500C5C915 /* PXShapeToolPropertiesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D941F1930532500C5C915 /* Japanese */,
+			);
+			name = PXShapeToolPropertiesView.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94201930532500C5C915 /* PXSpriteSheetExporter.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94211930532500C5C915 /* Japanese */,
+			);
+			name = PXSpriteSheetExporter.xib;
+			sourceTree = "<group>";
+		};
+		DE2D94221930532500C5C915 /* PXToolPalette.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2D94231930532500C5C915 /* Japanese */,
+			);
+			name = PXToolPalette.xib;
 			sourceTree = "<group>";
 		};
 		EA6864B3054C5EDE00EE395F /* PXBackgroundController.nib */ = {

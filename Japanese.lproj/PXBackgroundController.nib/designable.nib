@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PXBackgroundController">
+            <connections>
+                <outlet property="alternateBackgroundView" destination="155" id="164"/>
+                <outlet property="defaultsStack" destination="219" id="220"/>
+                <outlet property="mainBackgroundView" destination="86" id="104"/>
+                <outlet property="mainStack" destination="166" id="221"/>
+                <outlet property="window" destination="5" id="107"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="背景" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="5" userLabel="BackgroundsPanel" customClass="PXBackgroundsPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="340" y="326" width="629" height="426"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <value key="minSize" type="size" width="629" height="379"/>
+            <value key="maxSize" type="size" width="700" height="600"/>
+            <view key="contentView" id="6">
+                <rect key="frame" x="0.0" y="0.0" width="629" height="426"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView id="86" customClass="PXBackgroundInfoView">
+                        <rect key="frame" x="265" y="248" width="350" height="138"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" id="92">
+                                <rect key="frame" x="131" y="97" width="200" height="22"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Awesome Template" drawsBackground="YES" id="229">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="nameChanged:" target="86" id="111"/>
+                                </connections>
+                            </textField>
+                            <customView id="91" customClass="PXBackgroundPreviewView">
+                                <rect key="frame" x="15" y="15" width="108" height="108"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </customView>
+                            <customView id="90">
+                                <rect key="frame" x="131" y="20" width="200" height="67"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </customView>
+                        </subviews>
+                        <connections>
+                            <outlet property="configuratorContainer" destination="90" id="98"/>
+                            <outlet property="delegate" destination="-2" id="109"/>
+                            <outlet property="imageView" destination="91" id="99"/>
+                            <outlet property="nameField" destination="92" id="97"/>
+                        </connections>
+                    </customView>
+                    <textField verticalHuggingPriority="750" id="113">
+                        <rect key="frame" x="250" y="392" width="119" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="メインの背景:" id="230">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="118">
+                        <rect key="frame" x="250" y="211" width="144" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="代わりの背景:" id="231">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <customView id="155" customClass="PXBackgroundInfoView">
+                        <rect key="frame" x="265" y="67" width="350" height="138"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" id="158">
+                                <rect key="frame" x="131" y="97" width="200" height="22"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Awesome Template" drawsBackground="YES" id="232">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="nameChanged:" target="155" id="159"/>
+                                </connections>
+                            </textField>
+                            <customView id="157" customClass="PXBackgroundPreviewView">
+                                <rect key="frame" x="15" y="15" width="108" height="108"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </customView>
+                            <customView id="156">
+                                <rect key="frame" x="131" y="20" width="200" height="67"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </customView>
+                        </subviews>
+                        <connections>
+                            <outlet property="configuratorContainer" destination="156" id="161"/>
+                            <outlet property="delegate" destination="-2" id="163"/>
+                            <outlet property="imageView" destination="157" id="160"/>
+                            <outlet property="nameField" destination="158" id="162"/>
+                        </connections>
+                    </customView>
+                    <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="167" customClass="PXBackgroundTemplateScrollView">
+                        <rect key="frame" x="20" y="146" width="219" height="263"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <clipView key="contentView" autoresizesSubviews="NO" id="qLZ-XR-xUT">
+                            <rect key="frame" x="1" y="1" width="202" height="261"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <customView id="166" customClass="OSStackedView">
+                                    <rect key="frame" x="0.0" y="0.0" width="219" height="272"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="-2" id="169"/>
+                                    </connections>
+                                </customView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="0.1149425283074379" horizontal="YES" id="234">
+                            <rect key="frame" x="-100" y="-100" width="174" height="15"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="235">
+                            <rect key="frame" x="203" y="1" width="15" height="261"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                    <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" id="225" customClass="PXBackgroundTemplateScrollView">
+                        <rect key="frame" x="20" y="20" width="219" height="107"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <clipView key="contentView" autoresizesSubviews="NO" copiesOnScroll="NO" id="8Yc-Bf-U9O">
+                            <rect key="frame" x="1" y="1" width="217" height="105"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <customView id="219" customClass="OSStackedView">
+                                    <rect key="frame" x="0.0" y="0.0" width="219" height="106"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="-2" id="222"/>
+                                    </connections>
+                                </customView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="0.091324202716350555" horizontal="YES" id="236">
+                            <rect key="frame" x="-100" y="-100" width="219" height="15"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="0.81132078170776367" horizontal="NO" id="237">
+                            <rect key="frame" x="-100" y="-100" width="15" height="121"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="8"/>
+            </connections>
+        </window>
+    </objects>
+</document>

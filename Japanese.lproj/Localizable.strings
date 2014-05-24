@@ -1,0 +1,246 @@
+/* Background Label */
+"BACKGROUND_LABEL" = "バックグラウンド";
+/* Background Tooltip */
+"BACKGROUND_TOOLTIP" = "バックグラウンド設定を開きます";
+
+/* Layers Label */
+"LAYERS_LABEL" = "レイヤー";
+/* Layers Tooltip */
+"LAYERS_TOOLTIP" = "レイヤービュードロワーを開閉します";
+
+/* Document Palette Label */
+"DOCUMENT_PALETTE_LABEL" = "パレット";
+/* Document Palette Tooltip */
+"DOCUMENT_PALETTE_TOOLTIP" = "このドキュメントのパレットウインドウを開きます";
+
+/* Preview Label */
+"PREVIEW_LABEL" = "プレビュー";
+/* Preview Tooltip */
+"PREVIEW_TOOLTIP" = "プレビューパネルを開閉します";
+
+/* Tool Properties Label */
+"TOOL_PROPERTIES_LABEL" = "ツールプロパティ";
+/* Tool Properties Tooltip */
+"TOOL_PROPERTIES_TOOLTIP" = "ツールのプロパティパネルを開閉します";
+
+/* Grid Label */
+"GRID_LABEL" = "グリッド";
+/* Grid Tooltip */
+"GRID_TOOLTIP" = "グリッドの設定を表示します";
+
+/* Color Bank Label */
+"COLOR_BANK_LABEL" = "カラーバンク";
+/* Color Bank Tooltip */
+"COLOR_BANK_TOOLTIP" = "カラーバンクを開閉します";
+
+/* Color Palette Label */
+"COLOR_PALETTE_LABEL" = "パレット";
+/* Color Palette Tooltip */
+"COLOR_PALETTE_TOOLTIP" = "カラーパレットを開閉します";
+
+/* Zoom Fit Label */
+"ZOOM_FIT_LABEL" = "ウインドウサイズにズーム";
+/* Zoom Fit Tooltip */
+"ZOOM_FIT_TOOLTIP" = "キャンバスをズームしてウインドウサイズに合わせます";
+
+/* Zoom Actual Label */
+"ZOOM_ACTUAL_LABEL" = "実サイズ";
+/* Zoom Actual Tooltip */
+"ZOOM_ACTUAL_TOOLTIP" = "画像の実サイズにズームして合わせます";
+
+/* Scale Label */
+"SCALE_LABEL" = "スケール";
+/* Scale Tooltip */
+"SCALE_TOOLTIP" = "画像のスケールを変更します";
+
+/* Resize Label */
+"RESIZE_LABEL" = "リサイズ";
+/* Resize Tooltip */
+"RESIZE_TOOLTIP" = "キャンバスサイズをリサイズします";
+
+/* Zoom Label */
+"ZOOM_LABEL" = "ズーム";
+/* Zoom Tooltip */
+"ZOOM_TOOLTIP" = "画像の拡大比率を変更します";
+
+/* New Animation prompt title */
+"NEW_ANIMATION" = "新規アニメーション";
+/* Animation size prompt */
+"ANIMATION_SIZE_PROMPT" = "アニメーションのサイズを設定します。";
+
+/* Backgrounds Save As */
+"BACKGROUNDS_SAVE_AS" = "新しい設定として保存…";
+/* Backgrounds Delete */
+"BACKGROUNDS_DELETE" = "現在の設定を削除します";
+
+/* Flat Background */
+"FLAT_BACKGROUND" = "単色のバックグラウンド";
+/* Image Background */
+"IMAGE_BACKGROUND" = "画像のバックグラウンド";
+/* Checkered Background */
+"CHECKERED_BACKGROUND" = "チェッカーのバックグラウンド";
+/* Slashed Background */
+"SLASHED_BACKGROUND" = "スラッシュのバックグラウンド";
+
+/* Palette Save As */
+"PALETTE_SAVE_AS" = "新しいパレットとして保存する…";
+/* Palette Set Default */
+"PALETTE_SET_DEFAULT" = "デフォルトのパレットに設定する";
+/* Palette Delete */
+"PALETTE_DELETE" = "現在のパレットを削除";
+/* Generated Palette */
+"GENERATED_PALETTE" = "生成されたパレット";
+/* Crayons */
+"CRAYONS" = "クレヨン";
+/* Web Safe Colors */
+"WEB_SAFE_COLORS" = "Webセーフカラー";
+/* Grayscale */
+"GRAYSCALE" = "グレイスケール";
+/* No User Palettes */
+"NO_USER_PALETTES" = "ユーザーパレットなし";
+/* New Palette Prompt */
+"NEW_PALETTE_PROMPT" = "新しいパレット名を設定して下さい。";
+/* Change Palette Color */
+"Change Palette Color" = "パレットカラーを変更";
+/* Change Palette */
+"Change Palette" = "パレットを変更";
+/* Crash Recovery */
+"CRASH_RECOVERY" = "クラッシュ リカバリー";
+/* Crash Text */
+"CRASH_TEXT" = "Pixenは前回保存していない変更がある状態でクラッシュしたため、影響のあったファイルのバックアップを開きました。バックアップファイルを元のファイルに上書きしたい場合は、「別名で保存...」を使用して下さい。";
+
+/* Width */
+"WIDTH" = "横";
+"WIDTH_ABBR" = "横";
+/* Height */
+"HEIGHT" = "縦";
+"HEIGHT_ABBR" = "縦";
+
+/* Red */
+"RED" = "赤";
+/* Green */
+"GREEN" = "緑";
+/* Blue */
+"BLUE" = "青";
+/* Alpha */
+"ALPHA" = "透明度";
+
+/* Properties */
+"PROPERTIES" = "プロパティ";
+/* Left */
+"LEFT" = "左";
+/* Right */
+"RIGHT" = "右";
+
+/* Modify Pattern… */
+"MODIFY_PATTERN" = "パターンを変更…";
+/* Set Pattern… */
+"SET_PATTERN" = "パターンを設定…";
+
+/* Nearest Neighbor Info */
+"NEAREST_NEIGHBOR_INFO" = "For every pixel in the new image, this algorithm finds the closest pixel in the current image and uses that color. This results in a lossy image if you're not scaling up by a power of two (2x, 4x, 8x, 16x, ...) This algorithm is ideal if you want a larger image that looks identical to the current image.";
+/* Scale2x Info */
+"SCALE2X_INFO" = "This algorithm provides a larger, smoother image without introducing new colors. This algorithm may only be used to scale up by powers of two, and it works best for scaling up by 2x in both dimensions.";
+
+/* --------------- TOOLS --------------- */
+
+/* Pencil Name */
+"PENCIL_NAME" = "鉛筆 ツール";
+/* Pencil Action */
+"PENCIL_ACTION" = "描画";
+
+/* Line Name */
+"LINE_NAME" = "ライン ツール";
+/* Line Action */
+"LINE_ACTION" = "ラインを描画";
+
+/* Eraser Name */
+"ERASER_NAME" = "消しゴム ツール";
+/* Eraser Action */
+"ERASER_ACTION" = "消す";
+
+/* Fill Name */
+"FILL_NAME" = "塗りつぶし ツール";
+/* Fill Action */
+"FILL_ACTION" = "塗りつぶし";
+
+/* Eyedropper Name */
+"EYEDROPPER_NAME" = "アイ・ドロッパー ツール";
+/* Eyedropper Action */
+/* This is unimplemented until we get to palette undo */
+
+/* Zoom Name */
+"ZOOM_NAME" = "ズーム ツール";
+/* Zoom Action */
+/* No undo for Zoom, so no point in having this */
+
+/* Rectangular Selection Name */
+"RECTANGULARSELECTION_NAME" = "矩形選択 ツール";
+/* Rectangular Selection Action */
+"RECTANGULARSELECTION_ACTION" = "選択";
+
+/* Selection Move Action */
+"SELECTION_MOVE_ACTION" = "選択を移動";
+
+/* Move Name */
+"MOVE_NAME" = "移動 ツール";
+/* Move Action */
+"MOVE_ACTION" = "移動";
+
+/* Rectangle Name */
+"RECTANGLE_NAME" = "矩形 ツール";
+/* Rectangle Action */
+"RECTANGLE_ACTION" = "矩形を描画";
+
+/* Ellipse Name */
+"ELLIPSE_NAME" = "楕円形 ツール";
+/* Ellipse Action */
+"ELLIPSE_ACTION" = "楕円を描画";
+
+/* Magic Wand Name */
+"MAGICWAND_NAME" = "マジックワンド ツール";
+/* Magic Wand Action */
+"MAGICWAND_ACTION" = "選択";
+
+/* Lasso Name */
+"LASSO_NAME" = "投げ縄 ツール";
+/* Lasso Action */
+"LASSO_ACTION" = "選択";
+
+/* Show Alignment Crosshairs */
+"SHOW_ALIGNMENT_CROSSHAIRS" = "アライメントガイドを表示";
+/* Hide Alignment Crosshairs */
+"HIDE_ALIGNMENT_CROSSHAIRS" = "アライメントガイドを隠す";
+
+/* Show Tool Preview */
+"SHOW_TOOL_PREVIEW" = "ツールプレビューを表示";
+/* Hide Tool Preview */
+"HIDE_TOOL_PREVIEW" = "ツールプレビューを隠す";
+
+/* Show Tiled View */
+"SHOW_TILED_VIEW" = "タイルビューを表示";
+/* Hide Tool Preview */
+"HIDE_TILED_VIEW" = "タイルビューを隠す";
+
+/* Show large color swatches */
+"SHOW_LARGE_COLOR_SWATCHES" = "大きなカラースウォッチを表示";
+/* Show small color swatches */
+"SHOW_SMALL_COLOR_SWATCHES" = "小さなカラースウォッチを表示";
+
+/* There is already a system palette by that name. */
+"ALREADY_SYSTEM_PALETTE" = "その名前はシステムパレットがすでに利用しています。";
+/* Would you like to pick a different name for %@? */
+"PICK_DIFFERENT_NAME" = "%@について、別の名前を設定してもよろしいですか？";
+
+/* About */
+"VERSION_STRING" = "バージョン %@";
+
+// new
+
+"ADD_FRAME" = "Add Frame";
+"HIDE_PREVIOUS_FRAME_OVERLAY" = "直前のフレームオーバーレイを隠す";
+"SHOW_PREVIOUS_FRAME_OVERLAY" = "直前のフレームオーバーレイを表示";
+"COPY_FRAME" = "フレームをコピー";
+"CUT_FRAME" = "フレームをカット";
+"DUPLICATE_FRAME" = "フレームを複製";
+"DELETE_FRAME" = "フレームを削除";

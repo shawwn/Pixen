@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PXScaleController">
+            <connections>
+                <outlet property="algorithmButton" destination="11" id="22"/>
+                <outlet property="algorithmInfoView" destination="54" id="55"/>
+                <outlet property="percentageHighField" destination="99" id="121"/>
+                <outlet property="percentageWideField" destination="94" id="120"/>
+                <outlet property="pixelsHighField" destination="101" id="119"/>
+                <outlet property="pixelsWideField" destination="92" id="123"/>
+                <outlet property="scaleProportionallyCheckbox" destination="62" id="63"/>
+                <outlet property="window" destination="5" id="17"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3"/>
+        <window title="Scale Panel" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="5" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="494" y="351" width="396" height="286"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <value key="minSize" type="size" width="213" height="107"/>
+            <view key="contentView" id="6">
+                <rect key="frame" x="0.0" y="0.0" width="396" height="286"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <popUpButton verticalHuggingPriority="750" id="11">
+                        <rect key="frame" x="127" y="246" width="252" height="26"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" title="WAVELET TRILINEAR WTF" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" id="137">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <menu key="menu" title="OtherViews" id="10">
+                                <items>
+                                    <menuItem title="WAVELET TRILINEAR WTF" state="on" id="9"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                        <connections>
+                            <action selector="setAlgorithm:" target="-2" id="23"/>
+                            <outlet property="nextKeyView" destination="92" id="111"/>
+                        </connections>
+                    </popUpButton>
+                    <textField verticalHuggingPriority="750" id="12">
+                        <rect key="frame" x="17" y="252" width="108" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="スケールの方法:" id="138">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" id="15">
+                        <rect key="frame" x="303" y="13" width="79" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <buttonCell key="cell" type="push" title="スケール" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="139">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="scale:" target="-2" id="20"/>
+                            <outlet property="nextKeyView" destination="11" id="113"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" id="16">
+                        <rect key="frame" x="211" y="13" width="92" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <buttonCell key="cell" type="push" title="キャンセル" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="140">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="cancel:" target="-2" id="21"/>
+                        </connections>
+                    </button>
+                    <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="53">
+                        <rect key="frame" x="20" y="88" width="356" height="91"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <clipView key="contentView" id="lMC-NO-XYY">
+                            <rect key="frame" x="1" y="1" width="354" height="89"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textView editable="NO" importsGraphics="NO" richText="NO" findStyle="panel" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" linkDetection="YES" spellingCorrection="YES" id="54">
+                                    <rect key="frame" x="0.0" y="0.0" width="354" height="89"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="354" height="89"/>
+                                    <size key="maxSize" width="358" height="10000000"/>
+                                    <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="354" height="89"/>
+                                    <size key="maxSize" width="358" height="10000000"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" controlSize="small" horizontal="YES" id="152">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" controlSize="small" horizontal="NO" id="151">
+                            <rect key="frame" x="344" y="1" width="11" height="89"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                    <button id="62">
+                        <rect key="frame" x="18" y="63" width="181" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <buttonCell key="cell" type="check" title="比率を維持してスケール" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="141">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="updateToScalePropotionally:" target="-2" id="67"/>
+                            <binding destination="68" name="value" keyPath="values.PXScalePanelScalesProportionally" id="75">
+                                <dictionary key="options">
+                                    <integer key="NSMultipleValuesPlaceholder" value="1"/>
+                                    <integer key="NSNoSelectionPlaceholder" value="1"/>
+                                    <integer key="NSNotApplicablePlaceholder" value="1"/>
+                                    <integer key="NSNullPlaceholder" value="1"/>
+                                    <bool key="NSRaisesForNotApplicableKeys" value="NO"/>
+                                    <bool key="NSValidatesImmediately" value="YES"/>
+                                </dictionary>
+                            </binding>
+                            <outlet property="nextKeyView" destination="15" id="110"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" id="90">
+                        <rect key="frame" x="17" y="222" width="108" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="新しい横幅:" id="143">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="92">
+                        <rect key="frame" x="130" y="220" width="67" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="144">
+                            <numberFormatter key="formatter" formatterBehavior="custom10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="115">
+                                <nil key="negativeInfinitySymbol"/>
+                                <nil key="positiveInfinitySymbol"/>
+                            </numberFormatter>
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <action selector="synchronizeForms:" target="-2" id="130"/>
+                            <outlet property="formatter" destination="116" id="124"/>
+                            <outlet property="nextKeyView" destination="101" id="106"/>
+                        </connections>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="94">
+                        <rect key="frame" x="130" y="190" width="67" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="145">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <action selector="synchronizeForms:" target="-2" id="131"/>
+                            <outlet property="formatter" destination="127" id="128"/>
+                            <outlet property="nextKeyView" destination="99" id="108"/>
+                        </connections>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="95">
+                        <rect key="frame" x="17" y="192" width="108" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="横比率:" id="146">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="98">
+                        <rect key="frame" x="211" y="192" width="93" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="縦比率:" id="147">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="99">
+                        <rect key="frame" x="309" y="190" width="67" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="148">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <action selector="synchronizeForms:" target="-2" id="133"/>
+                            <outlet property="formatter" destination="127" id="129"/>
+                            <outlet property="nextKeyView" destination="62" id="109"/>
+                        </connections>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="100">
+                        <rect key="frame" x="211" y="222" width="93" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="新しい縦幅:" id="149">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="101">
+                        <rect key="frame" x="309" y="220" width="67" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="150">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <action selector="synchronizeForms:" target="-2" id="132"/>
+                            <outlet property="formatter" destination="116" id="125"/>
+                            <outlet property="nextKeyView" destination="94" id="107"/>
+                        </connections>
+                    </textField>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="initialFirstResponder" destination="92" id="112"/>
+            </connections>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="68"/>
+        <numberFormatter formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="," id="116">
+            <attributedString key="attributedStringForZero">
+                <fragment content="0"/>
+            </attributedString>
+            <real key="minimum" value="1"/>
+            <decimal key="maximum" value="NaN"/>
+        </numberFormatter>
+        <numberFormatter formatterBehavior="10_0" positiveFormat="0.00%" negativeFormat="-0.00%" hasThousandSeparators="NO" thousandSeparator="," id="127">
+            <attributedString key="attributedStringForZero">
+                <fragment content="0.00%"/>
+            </attributedString>
+            <real key="minimum" value="1"/>
+            <decimal key="maximum" value="NaN"/>
+        </numberFormatter>
+    </objects>
+</document>
