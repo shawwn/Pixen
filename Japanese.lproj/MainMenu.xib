@@ -81,7 +81,7 @@
                                     <action selector="newDocument:" target="-1" id="194"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="コピーから新規" keyEquivalent="" id="353">
+                            <menuItem title="コピーから新規" id="353">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="duplicateDocument:" target="-1" id="354"/>
