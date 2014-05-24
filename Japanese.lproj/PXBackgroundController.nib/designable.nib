@@ -62,8 +62,8 @@
                     <textField verticalHuggingPriority="750" id="113">
                         <rect key="frame" x="250" y="392" width="119" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="メインの背景:" id="230">
-                            <font key="font" metaFont="system"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="作業時の背景:" id="230">
+                            <font key="font" size="13" name="AquaKana"/>
                             <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -71,8 +71,8 @@
                     <textField verticalHuggingPriority="750" id="118">
                         <rect key="frame" x="250" y="211" width="144" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="代わりの背景:" id="231">
-                            <font key="font" metaFont="system"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="作業外の時の背景:" id="231">
+                            <font key="font" size="13" name="AquaKana"/>
                             <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>

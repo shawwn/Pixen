@@ -283,11 +283,11 @@ typedef enum _PXStackType
 {
 	if ([templateView isKindOfClass:[PXBuiltinBackgroundTemplateView class]])
 	{
-		return [@"New " stringByAppendingString:[[templateView background] defaultName]];
+		return [NSString stringWithFormat:NSLocalizedString(@"New %@", @"New %@"), [[templateView background] defaultName]];
 	}
 	else
 	{
-		return [@"Copy of " stringByAppendingString:[[templateView background] name]];
+		return [NSString stringWithFormat:NSLocalizedString(@"Copy of %@", @"Copy of %@"), [[templateView background] name]];
 	}
 }
 

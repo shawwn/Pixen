@@ -465,9 +465,9 @@
 {
 	NSSavePanel *savePanel = [NSSavePanel savePanel];
 	[savePanel setCanCreateDirectories:YES];
-	[savePanel setNameFieldLabel:@"Export to:"];
+	[savePanel setNameFieldLabel:NSLocalizedString(@"Export to:", @"Export to:")];
 	[savePanel setAllowedFileTypes:@[ (__bridge NSString *) kUTTypeQuickTimeMovie]];
-	[savePanel setPrompt:@"Export"];
+	[savePanel setPrompt:NSLocalizedString(@"Export", @"Export")];
 	
 	[savePanel beginSheetModalForWindow:[self window]
 					  completionHandler:^(NSInteger result) {

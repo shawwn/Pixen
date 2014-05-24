@@ -24,8 +24,8 @@
 	vc.fileTemplate = [NSString stringWithFormat:@"%@ %%f", [[aDocument displayName] stringByDeletingPathExtension]];
 	
 	savePanel = [NSOpenPanel openPanel];
-	[savePanel setTitle:@"Choose Target Folder"];
-	[savePanel setPrompt:@"Export"];
+	[savePanel setTitle:NSLocalizedString(@"Choose Target Folder", @"Choose Target Folder")];
+	[savePanel setPrompt:NSLocalizedString(@"Export", @"Export")];
 	[savePanel setCanCreateDirectories:YES];
 	[savePanel setCanChooseDirectories:YES];
 	[savePanel setCanChooseFiles:NO];

@@ -244,3 +244,16 @@
 "CUT_FRAME" = "Cut Frame";
 "DUPLICATE_FRAME" = "Duplicate Frame";
 "DELETE_FRAME" = "Delete Frame";
+
+
+"HIDE_INFO_BAR" = "Hide Info bar";
+"SHOW_INFO_BAR" = "Show Info bar";
+
+"ALTERNATE_BACKGROUND_INFO" = "Drag a template here, and it will be displayed when the mouse is outside of the canvas.";
+
+"DEFAULT_ALTERNATE_BACKGROUND" = "Default Alternate Background";
+
+"BACKGROUND_DELETE_INFORMATIVE_TEXT" = "This operation cannot be undone.";
+"PALETTE_DELETE_PROMPT" = "Are you sure you want to delete the palette '%@'?";
+"CANCEL" = "Cancel";
+"DELETE" = "Delete";

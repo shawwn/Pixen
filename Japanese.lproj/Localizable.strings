@@ -1,7 +1,7 @@
 /* Background Label */
-"BACKGROUND_LABEL" = "バックグラウンド";
+"BACKGROUND_LABEL" = "背景";
 /* Background Tooltip */
-"BACKGROUND_TOOLTIP" = "バックグラウンド設定を開きます";
+"BACKGROUND_TOOLTIP" = "背景設定を開きます";
 
 /* Layers Label */
 "LAYERS_LABEL" = "レイヤー";
@@ -74,13 +74,13 @@
 "BACKGROUNDS_DELETE" = "現在の設定を削除します";
 
 /* Flat Background */
-"FLAT_BACKGROUND" = "単色のバックグラウンド";
+"FLAT_BACKGROUND" = "単色";
 /* Image Background */
-"IMAGE_BACKGROUND" = "画像のバックグラウンド";
+"IMAGE_BACKGROUND" = "画像";
 /* Checkered Background */
-"CHECKERED_BACKGROUND" = "チェッカーのバックグラウンド";
+"CHECKERED_BACKGROUND" = "チェッカー";
 /* Slashed Background */
-"SLASHED_BACKGROUND" = "スラッシュのバックグラウンド";
+"SLASHED_BACKGROUND" = "斜め線";
 
 /* Palette Save As */
 "PALETTE_SAVE_AS" = "新しいパレットとして保存する…";
@@ -138,9 +138,10 @@
 "SET_PATTERN" = "パターンを設定…";
 
 /* Nearest Neighbor Info */
-"NEAREST_NEIGHBOR_INFO" = "For every pixel in the new image, this algorithm finds the closest pixel in the current image and uses that color. This results in a lossy image if you're not scaling up by a power of two (2x, 4x, 8x, 16x, ...) This algorithm is ideal if you want a larger image that looks identical to the current image.";
+"NEAREST_NEIGHBOR_INFO" = "このアルゴリズムは新しい画像の全てのピクセルについて現在の画像から一番近傍のものを選択します。もしスケール値が2のべき乗(2x, 4x, 8x, 16x, ...)でない場合は、崩れた画像が生成されます。スケールを大きくしても見た目を保持したい場合にはこのアルゴリズムは最適です。";
+
 /* Scale2x Info */
-"SCALE2X_INFO" = "This algorithm provides a larger, smoother image without introducing new colors. This algorithm may only be used to scale up by powers of two, and it works best for scaling up by 2x in both dimensions.";
+"SCALE2X_INFO" = "このアルゴリズムは元画像にある色のみを使ってよりなめらかな拡大画像を生成します。このアルゴリズムは画像が縦横ともに2のべき乗のスケール値の時のみ使用できます。このアルゴリズムでは縦横両方向に対して2倍に拡大する時に最高の結果が得られます。";
 
 /* --------------- TOOLS --------------- */
 
@@ -244,3 +245,74 @@
 "CUT_FRAME" = "フレームをカット";
 "DUPLICATE_FRAME" = "フレームを複製";
 "DELETE_FRAME" = "フレームを削除";
+
+"HIDE_INFO_BAR" = "情報バーを隠す";
+"SHOW_INFO_BAR" = "情報バーを表示";
+
+"Install" = "インストール";
+"Cancel" = "キャンセル";
+
+"Export to:" = "出力先を選択:";
+"Export" = "エクスポート";
+
+"Preset" = "プリセット";
+"Save Preset As..." = "プリセットを別名で保存...";
+"Manage Presets..." = "プリセットを管理...";
+"Enter a name for this preset:" = "このプリセットの名前:";
+
+"Show Grid" = "グリッドを表示";
+"Hide Grid" = "グリッドを隠す";
+
+"Size To..." = "サイズ変更...";
+"Set Background..." = "背景の設定...";
+"No Palettes" = "パレットなし";
+
+"Delete" = "削除";
+"Duplicate" = "複製";
+"Cut" = "カット";
+"Copy" = "コピー";
+"Paste" = "ペースト";
+"Merge Down" = "レイヤーを結合";
+"Main Layer" = "メイン レイヤー";
+"Transform Layer" = "レイヤーを変形";
+"New Layer %d" = "新しいレイヤー %d";
+
+"Flip Horizontally" = "水平方向に反転";
+"Flip Vertically" = "垂直方向に反転";
+"Rotate 90%@ Left" = "反時計回りに90%@ 回転";
+"Rotate 90%@ Right" = "時計回りに90%@ 回転";
+"Rotate 180%@" = "180%@ 回転";
+
+"Import" = "インポート";
+"Import Sequence" = "連番をインポート";
+
+
+"Default Templates" = "デフォルト テンプレート";
+"User Templates" = "ユーザー テンプレート";
+"Built-in Templates" = "ビルトイン テンプレート";
+
+"Copy of %@" = "%@ のコピー";
+"New %@" = "新しい %@";
+"Default %@" = "デフォルトの %@";
+
+"Main Background" = "作業時の背景";
+"Alternate Background" = "作業外の背景";
+"Backgrounds" = "背景";
+
+"Pixen image" = "Pixen 画像形式";
+"Pixen animation" = "Pixen アニメーション形式";
+"GIF image" = "GIF 形式";
+"JPEG image" = "JPEG 形式";
+"PNG image" = "PNG 形式";
+"TIFF image" = "TIFF 形式";
+"BMP image" = "BMP 形式";
+"ICO image" = "ICO 形式";
+"Invalid type (%@)" = "無効なタイプです (%@)";
+
+"ALTERNATE_BACKGROUND_INFO" = "テンプレートをここにドラッグすると、マウスをキャンバス外に移動したときの背景が設定出来ます。";
+
+"DEFAULT_ALTERNATE_BACKGROUND" = "デフォルトの作業外の背景";
+"BACKGROUND_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
+"PALETTE_DELETE_PROMPT" = "パレット '%@' を本当に削除しますか?";
+"CANCEL" = "キャンセル";
+"DELETE" = "削除";

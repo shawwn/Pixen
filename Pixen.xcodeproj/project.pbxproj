@@ -2471,6 +2471,10 @@
 			isa = PBXGroup;
 			children = (
 				C92A1E9013B12CAB0007235A /* MainMenu.xib */,
+				61A956BA08AD76CF009BB89F /* OSProgressPopup.nib */,
+				C9ECD4D4150BECB6001F686C /* PXAbout.xib */,
+				C973F0D6152B93810084A158 /* PXAnimationDocument.xib */,
+				EA6864B3054C5EDE00EE395F /* PXBackgroundController.nib */,
 				EACDBD7F0878B37100564512 /* PXBackgroundTemplateView.xib */,
 				C9A6BE1813AD008C0028B141 /* PXBlankPropertiesView.xib */,
 				C94A9ED813B114DE0034AFE3 /* PXCanvasDocument.xib */,
@@ -2482,7 +2486,9 @@
 				C93DB18013ABC8BE006D42FE /* PXGeneralPreferences.xib */,
 				C9FEE51913AF81AF004FFC3C /* PXGridSettings.xib */,
 				C96BABB313ABD3AB00015C92 /* PXHotkeysPreferences.xib */,
+				EAE126CF054F41A9001208D9 /* PXImageBackgroundConfigurator.nib */,
 				C9DC4D9913D0E6D70065C1A6 /* PXImageSizePrompt.xib */,
+				C91F07D1142D0BAB007F812C /* PXInfoPanel.xib */,
 				615E87F206A31AF8002445B8 /* PXLayerController.xib */,
 				C9B1FA5C13D732FC00BB7CF7 /* PXManagePresetsWindow.xib */,
 				EAA0184E054DCC7B00EF18C2 /* PXMonotoneBackgroundConfigurator.xib */,
@@ -2491,6 +2497,7 @@
 				EAB650840D108D9000274070 /* PXPaletteController.xib */,
 				C9FD44DF13FD70FC00CEE4FC /* PXPatternEditor.xib */,
 				C9ADD4A81400844B00257E38 /* PXPatternItem.xib */,
+				C982819316DBD71E00CD6831 /* PXPatternSizeWindow.xib */,
 				C9799FB613AD6ED900E261EE /* PXPencilToolPropertiesView.xib */,
 				C93DB17D13ABC6BE006D42FE /* PXPreferences.xib */,
 				C984251013AFC142000072C5 /* PXPreview.xib */,
@@ -2500,14 +2507,7 @@
 				61FED6C208BCC646005E51EA /* PXSequenceExportView.xib */,
 				C9799FAE13AD69C000E261EE /* PXShapeToolPropertiesView.xib */,
 				C912F26B13D5CDC100C0CF29 /* PXSpriteSheetExporter.xib */,
-				61A956BA08AD76CF009BB89F /* OSProgressPopup.nib */,
-				C91F07D1142D0BAB007F812C /* PXInfoPanel.xib */,
-				C973F0D6152B93810084A158 /* PXAnimationDocument.xib */,
-				EA6864B3054C5EDE00EE395F /* PXBackgroundController.nib */,
-				EAE126CF054F41A9001208D9 /* PXImageBackgroundConfigurator.nib */,
 				C900F4BC1509882F00DC6702 /* PXToolPalette.xib */,
-				C9ECD4D4150BECB6001F686C /* PXAbout.xib */,
-				C982819316DBD71E00CD6831 /* PXPatternSizeWindow.xib */,
 			);
 			name = NIBs;
 			sourceTree = "<group>";

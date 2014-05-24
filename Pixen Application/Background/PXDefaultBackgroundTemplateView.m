@@ -84,7 +84,7 @@
 	NSTextFieldCell *textCell = [[NSTextFieldCell alloc] init];
 	[textCell setAlignment:NSCenterTextAlignment];
 	[textCell setTextColor:[self isHighlighted] ? [NSColor whiteColor] : [NSColor disabledControlTextColor]];
-	[textCell setStringValue:NSLocalizedString(@"Default Alternate Background", @"ALTERNATE_BACKGROUND_INFO")];
+	[textCell setStringValue:NSLocalizedString(@"DEFAULT_ALTERNATE_BACKGROUND", @"Default Alternate Background")];
 	[textCell drawWithFrame:drawFrame inView:self];
 }
 

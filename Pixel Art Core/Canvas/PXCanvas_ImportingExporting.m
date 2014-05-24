@@ -56,7 +56,7 @@
 	selectedRect = NSZeroRect;
 	if([layers count] == 0)
 	{
-		[layers addObject:[[PXLayer alloc] initWithName:@"Main Layer" size:newSize]];
+		[layers addObject:[[PXLayer alloc] initWithName:NSLocalizedString(@"Main Layer", @"Main Layer") size:newSize]];
 		[[layers lastObject] setCanvas:self];
 		[self activateLayer:[layers lastObject]];
 	}

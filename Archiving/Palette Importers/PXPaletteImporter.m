@@ -118,8 +118,8 @@
 	_openPanel = [NSOpenPanel openPanel];
 	[_openPanel setAllowsMultipleSelection:YES];
 	[_openPanel setCanChooseDirectories:NO];
-	[_openPanel setPrompt:@"Install"];
-	[_openPanel setTitle:@"Install"];
+	[_openPanel setPrompt:NSLocalizedString(@"Install", @"Install")];
+	[_openPanel setTitle:NSLocalizedString(@"Install", @"Install")];
 	[_openPanel setAllowedFileTypes:[NSArray arrayWithObjects:PXPaletteSuffix, MicrosoftPaletteSuffix, AdobePaletteSuffix, GimpPaletteSuffix, nil]];
 	
 	if (window) {

@@ -92,7 +92,7 @@
 		NSTextFieldCell *textCell = [[NSTextFieldCell alloc] init];
 		[textCell setAlignment:NSCenterTextAlignment];
 		[textCell setTextColor:[NSColor disabledControlTextColor]];
-		[textCell setStringValue:NSLocalizedString(@"Drag a template here, and it will be displayed when the mouse is outside of the canvas.", @"ALTERNATE_BACKGROUND_INFO")];
+		[textCell setStringValue:NSLocalizedString(@"ALTERNATE_BACKGROUND_INFO", @"Drag a template here, and it will be displayed when the mouse is outside of the canvas.")];
 		[textCell drawWithFrame:drawFrame inView:self];
 	}
 	else

@@ -508,8 +508,8 @@ NSString *palettesSubdirName = @"Palettes";
 {
 	NSOpenPanel *openPanel = [NSOpenPanel openPanel];
 	[openPanel setAllowsMultipleSelection:YES];
-	[openPanel setPrompt:@"Import"];
-	[openPanel setTitle:@"Import Sequence"];
+	[openPanel setPrompt:NSLocalizedString(@"Import", @"Import")];
+	[openPanel setTitle:NSLocalizedString(@"Import Sequence", @"Import Sequence")];
 	
 	// Determine the appropriate extensions for the open panel.
 	NSArray *longTypes = [PXCanvasDocument readableTypes];

@@ -95,7 +95,7 @@
 	
 	_savePanel = [NSSavePanel savePanel];
 	[_savePanel setAllowedFileTypes:[NSArray arrayWithObjects:PXPaletteSuffix, MicrosoftPaletteSuffix, AdobePaletteSuffix, GimpPaletteSuffix, nil]];
-	[_savePanel setPrompt:@"Export"];
+	[_savePanel setPrompt:NSLocalizedString(@"Export", @"Export")];
 	[_savePanel setExtensionHidden:YES];
 	[_savePanel setNameFieldStringValue:_palette.name];
 	
