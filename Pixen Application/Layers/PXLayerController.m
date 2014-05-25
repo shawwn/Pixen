@@ -230,7 +230,7 @@
 	NSMenuItem *item;
 	
 	item = [[NSMenuItem alloc] init];
-	[item setTitle:NSLocalizedString(@"Delete", @"Delete")];
+	[item setTitle:NSLocalizedString(@"DELETE", @"Delete")];
 	[item setAction:@selector(removeLayer:)];
 	[item setTarget:self];
 	[menu addItem:item];

@@ -253,7 +253,18 @@
 
 "DEFAULT_ALTERNATE_BACKGROUND" = "Default Alternate Background";
 
+"BACKGROUND_DELETE_PROMPT" = "Really delete background template %@?";
 "BACKGROUND_DELETE_INFORMATIVE_TEXT" = "This operation cannot be undone.";
-"PALETTE_DELETE_PROMPT" = "Are you sure you want to delete the palette '%@'?";
 "CANCEL" = "Cancel";
 "DELETE" = "Delete";
+
+"BACKGROUND_OVERWRITE_INFORMATIVE_TEXT" = @"Would you like to overwrite it?";
+"BACKGROUND_OVERWRITE_PROMPT" = "A background with the name %@ already exists.";
+
+"PALETTE_DELETE_PROMPT" = "Are you sure you want to delete the palette '%@'?";
+"PALETTE_DELETE_INFORMATIVE_TEXT" = "This operation cannot be undone.";
+
+"PATTERN_DELETE_PROMPT" = "Are you sure you want to delete the selected pattern?";
+"PATTERN_DELETE_INFORMATIVE_TEXT" = "This operation cannot be undone.";
+
+"OVERWRITE" = "Overwrite";

@@ -244,7 +244,7 @@ NSString *palettesSubdirName = @"Palettes";
 		NSInteger result = NSRunAlertPanel(NSLocalizedString(@"Confirmation", @"Confirmation"),
 										   message,
 										   NSLocalizedString(@"Install", @"Install"),
-										   NSLocalizedString(@"Cancel", @"Cancel"), nil);
+										   NSLocalizedString(@"CANCEL", @"Cancel"), nil);
 		
 		if (result == NSAlertDefaultReturn)
 		{
@@ -269,7 +269,7 @@ NSString *palettesSubdirName = @"Palettes";
 		NSInteger result = NSRunAlertPanel(NSLocalizedString(@"Confirmation", @"Confirmation"),
 										   message,
 										   NSLocalizedString(@"Install", @"Install"),
-										   NSLocalizedString(@"Cancel", @"Cancel"), nil);
+										   NSLocalizedString(@"CANCEL", @"Cancel"), nil);
 		
 		if (result == NSAlertDefaultReturn)
 		{

@@ -331,7 +331,7 @@ void RGBtoHSV(PXColor c, CGFloat *h, CGFloat *s, CGFloat *v)
 	[button setKeyEquivalent:@"\r"];
 	
 	[alert setMessageText:[NSString stringWithFormat:NSLocalizedString(@"PALETTE_DELETE_PROMPT", @"Are you sure you want to delete the palette '%@'?"), name]];
-	[alert setInformativeText:NSLocalizedString(@"BACKGROUND_DELETE_INFORMATIVE_TEXT", @"This operation cannot be undone.")];
+	[alert setInformativeText:NSLocalizedString(@"PALETTE_DELETE_INFORMATIVE_TEXT", @"This operation cannot be undone.")];
 	
 	[alert beginSheetModalForWindow:[[self view] window]
 					  modalDelegate:self

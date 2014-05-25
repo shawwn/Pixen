@@ -226,11 +226,11 @@ typedef enum _PXStackType
 {
 	if(![[NSFileManager defaultManager] fileExistsAtPath:backgroundPath]) { NSBeep(); return; }
 	NSAlert *alert = [[NSAlert alloc] init];
-	[[alert addButtonWithTitle:NSLocalizedString(@"Delete", @"DELETE")] setKeyEquivalent:@""];
-	NSButton *button = [alert addButtonWithTitle:NSLocalizedString(@"Cancel", @"CANCEL")];
+	[[alert addButtonWithTitle:NSLocalizedString(@"DELETE", @"Delete")] setKeyEquivalent:@""];
+	NSButton *button = [alert addButtonWithTitle:NSLocalizedString(@"CANCEL", @"Cancel")];
 	[button setKeyEquivalent:@"\r"];
-	[alert setMessageText:[NSString stringWithFormat:NSLocalizedString(@"Really delete background template %@?", @"BACKGROUND_DELETE_PROMPT"), [[backgroundPath lastPathComponent] stringByDeletingPathExtension]]];
-	[alert setInformativeText:NSLocalizedString(@"This operation cannot be undone.", @"BACKGROUND_DELETE_INFORMATIVE_TEXT")];
+	[alert setMessageText:[NSString stringWithFormat:NSLocalizedString(@"BACKGROUND_DELETE_PROMPT", @"Really delete background template %@?"), [[backgroundPath lastPathComponent] stringByDeletingPathExtension]]];
+	[alert setInformativeText:NSLocalizedString(@"BACKGROUND_DELETE_INFORMATIVE_TEXT", @"This operation cannot be undone.")];
 	[alert beginSheetModalForWindow:[self window] modalDelegate:self didEndSelector:@selector(deleteSheetDidEnd:returnCode:contextInfo:)
 						contextInfo:CFBridgingRetain([NSDictionary dictionaryWithObjectsAndKeys:backgroundPath, PXBackgroundPathKey, NSStringFromPoint(point), PXPoofLocationKey, nil])];
 }
@@ -264,11 +264,11 @@ typedef enum _PXStackType
 	if([manager fileExistsAtPath:path])
 	{
 		NSAlert *alert = [[NSAlert alloc] init];
-		[[alert addButtonWithTitle:NSLocalizedString(@"Overwrite", @"OVERWRITE")] setKeyEquivalent:@""];
-		NSButton *button = [alert addButtonWithTitle:NSLocalizedString(@"Cancel", @"CANCEL")];
+		[[alert addButtonWithTitle:NSLocalizedString(@"OVERWRITE", @"Overwrite")] setKeyEquivalent:@""];
+		NSButton *button = [alert addButtonWithTitle:NSLocalizedString(@"CANCEL", @"Cancel")];
 		[button setKeyEquivalent:@"\r"];
-		[alert setMessageText:[NSString stringWithFormat:NSLocalizedString(@"A background with the name %@ already exists.", @"BACKGROUND_OVERWRITE_PROMPT"), [bg name]]];
-		[alert setInformativeText:NSLocalizedString(@"Would you like to overwrite it?", @"BACKGROUND_OVERWRITE_INFORMATIVE_TEXT")];
+		[alert setMessageText:[NSString stringWithFormat:NSLocalizedString(@"BACKGROUND_OVERWRITE_PROMPT", @"A background with the name %@ already exists."), [bg name]]];
+		[alert setInformativeText:NSLocalizedString(@"BACKGROUND_OVERWRITE_INFORMATIVE_TEXT", @"Would you like to overwrite it?")];
 		//need to retain the context info
 		[alert beginSheetModalForWindow:[self window] modalDelegate:self didEndSelector:@selector(overwriteSheetDidEnd:returnCode:contextInfo:) contextInfo:CFBridgingRetain(bg)];
 	}

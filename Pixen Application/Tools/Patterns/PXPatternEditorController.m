@@ -173,13 +173,13 @@
 		return;
 	
 	NSAlert *alert = [[NSAlert alloc] init];
-	[alert addButtonWithTitle:NSLocalizedString(@"Delete", @"DELETE")];
+	[alert addButtonWithTitle:NSLocalizedString(@"DELETE", @"Delete")];
 	
-	NSButton *button = [alert addButtonWithTitle:NSLocalizedString(@"Cancel", @"CANCEL")];
+	NSButton *button = [alert addButtonWithTitle:NSLocalizedString(@"CANCEL", @"Cancel")];
 	[button setKeyEquivalent:@"\r"];
 	
-	[alert setMessageText:NSLocalizedString(@"Are you sure you want to delete the selected pattern?", @"PATTERN_DELETE_PROMPT")];
-	[alert setInformativeText:NSLocalizedString(@"This operation cannot be undone.", @"PATTERN_DELETE_INFORMATIVE_TEXT")];
+	[alert setMessageText:NSLocalizedString(@"PATTERN_DELETE_PROMPT", @"Are you sure you want to delete the selected pattern?")];
+	[alert setInformativeText:NSLocalizedString(@"PATTERN_DELETE_INFORMATIVE_TEXT", @"This operation cannot be undone.")];
 	
 	[alert beginSheetModalForWindow:[self window]
 					  modalDelegate:self

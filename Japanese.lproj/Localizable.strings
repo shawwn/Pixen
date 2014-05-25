@@ -238,7 +238,7 @@
 
 // new
 
-"ADD_FRAME" = "Add Frame";
+"ADD_FRAME" = "フレームを追加";
 "HIDE_PREVIOUS_FRAME_OVERLAY" = "直前のフレームオーバーレイを隠す";
 "SHOW_PREVIOUS_FRAME_OVERLAY" = "直前のフレームオーバーレイを表示";
 "COPY_FRAME" = "フレームをコピー";
@@ -312,7 +312,40 @@
 "ALTERNATE_BACKGROUND_INFO" = "テンプレートをここにドラッグすると、マウスをキャンバス外に移動したときの背景が設定出来ます。";
 
 "DEFAULT_ALTERNATE_BACKGROUND" = "デフォルトの作業外の背景";
-"BACKGROUND_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
-"PALETTE_DELETE_PROMPT" = "パレット '%@' を本当に削除しますか?";
 "CANCEL" = "キャンセル";
 "DELETE" = "削除";
+
+"BACKGROUND_OVERWRITE_INFORMATIVE_TEXT" = "上書きしますか?";
+"BACKGROUND_OVERWRITE_PROMPT" = "%@ という名前の背景はすでに存在します。";
+"BACKGROUND_DELETE_PROMPT" = "%@ 背景テンプレートを本当に削除しますか？";
+"BACKGROUND_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
+
+"PALETTE_DELETE_PROMPT" = "パレット '%@' を本当に削除しますか?";
+"PALETTE_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
+
+"PATTERN_DELETE_PROMPT" = "選択したパターンを本当に削除しますか?";
+"PATTERN_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
+
+"OVERWRITE" = "上書き";
+
+" Copy" = " のコピー";
+"%@ will be copied to %@." = "%@ は %@ にコピーされます。";
+"Backgrounds - Preview" = "背景 - プレビュー";
+"Built-in Template" = "ビルトイン テンプレート";
+"Cancel Paste" = "ペーストをキャンセル";
+"Confirmation" = "確認";
+"Document Palette" = "ドキュメント パレット";
+"image" = "画像";
+"Install pattern '%@'?" = "パターン '%@' をインストールしますか?";
+"layer" = "レイヤー";
+"Paste Anyway" = "ペーストを続行";
+"Pasted Layer" = "ペーストされたレイヤー";
+"Please name the new configuration." = "新しい設定の名前を入力して下さい。";
+"Promoted Selection" = "レイヤー化された選択";
+"Rename the palette '%@'" = "パレット '%@' をリネームして下さい";
+"Resize Canvas to Fit" = "キャンバスをリサイズして合わせる";
+"Temp Layer" = "テンポラリ レイヤー";
+"The pasted %@ is %dx%d, while the canvas is only %dx%d." = "ペーストされた %@ は %dx%d ですが、 このキャンバスは %dx%d です。";
+"The pasted %@ is too big!" = "ペーストされた %@ は大きすぎます。";
+"Untitled Palette" = "名称未設定 パレット";
+
