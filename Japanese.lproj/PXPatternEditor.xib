@@ -113,7 +113,7 @@
         <collectionViewItem nibName="PXPatternItem" id="21" customClass="PXPatternItem"/>
         <menu id="65">
             <items>
-                <menuItem title="Delete..." id="66">
+                <menuItem title="削除..." id="66">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="deletePattern:" target="-2" id="70"/>

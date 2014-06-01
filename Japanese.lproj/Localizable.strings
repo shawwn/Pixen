@@ -236,6 +236,9 @@
 /* About */
 "VERSION_STRING" = "バージョン %@";
 
+/* Color Well */
+"COLOR_WELL_PIXEN_COLORS" = "Pixen カラー";
+
 // new
 
 "ADD_FRAME" = "フレームを追加";
@@ -329,6 +332,7 @@
 "OVERWRITE" = "上書き";
 
 " Copy" = " のコピー";
+"%@ Copy" = "%@ のコピー";
 "%@ will be copied to %@." = "%@ は %@ にコピーされます。";
 "Backgrounds - Preview" = "背景 - プレビュー";
 "Built-in Template" = "ビルトイン テンプレート";
@@ -342,7 +346,7 @@
 "Pasted Layer" = "ペーストされたレイヤー";
 "Please name the new configuration." = "新しい設定の名前を入力して下さい。";
 "Promoted Selection" = "レイヤー化された選択";
-"Rename the palette '%@'" = "パレット '%@' をリネームして下さい";
+"Rename the palette '%@'" = "'%@' の名称を変更";
 "Resize Canvas to Fit" = "キャンバスをリサイズして合わせる";
 "Temp Layer" = "テンポラリ レイヤー";
 "The pasted %@ is %dx%d, while the canvas is only %dx%d." = "ペーストされた %@ は %dx%d ですが、 このキャンバスは %dx%d です。";

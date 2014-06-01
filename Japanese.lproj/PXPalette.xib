@@ -26,23 +26,23 @@
                 <popUpButton verticalHuggingPriority="750" id="27" customClass="PXActionButton">
                     <rect key="frame" x="216" y="278" width="42" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" imagePosition="only" alignment="center" controlSize="small" lineBreakMode="clipping" borderStyle="borderAndBezel" imageScaling="proportionallyUpOrDown" inset="2" pullsDown="YES" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="29" id="49">
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" imagePosition="only" alignment="center" controlSize="small" lineBreakMode="clipping" borderStyle="borderAndBezel" imageScaling="proportionallyUpOrDown" inset="2" pullsDown="YES" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="77" id="49">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
                         <menu key="menu" title="OtherViews" id="28">
                             <items>
                                 <menuItem image="NSActionTemplate" hidden="YES" id="29"/>
-                                <menuItem title="New Palette" id="31">
+                                <menuItem title="新規パレット" id="31">
                                     <connections>
                                         <action selector="newPalette:" target="-2" id="34"/>
                                     </connections>
                                 </menuItem>
-                                <menuItem title="Duplicate Palette" id="36">
+                                <menuItem title="パレットを複製" id="36">
                                     <connections>
                                         <action selector="duplicatePalette:" target="-2" id="39"/>
                                     </connections>
                                 </menuItem>
-                                <menuItem title="Install Palette..." id="41">
+                                <menuItem title="パレットをインストール..." id="41">
                                     <connections>
                                         <action selector="installPalette:" target="-2" id="43"/>
                                     </connections>
@@ -50,43 +50,43 @@
                                 <menuItem isSeparatorItem="YES" id="42">
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </menuItem>
-                                <menuItem title="Sort By" id="77">
+                                <menuItem title="並び替え" id="77">
                                     <modifierMask key="keyEquivalentModifierMask"/>
-                                    <menu key="submenu" title="Sort By" id="78">
+                                    <menu key="submenu" title="並び替え" id="78">
                                         <items>
-                                            <menuItem title="Hue Ascending" tag="120" id="79">
+                                            <menuItem title="色調（昇順）" tag="120" id="79">
                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                                 <connections>
                                                     <action selector="sortByColor:" target="-2" id="91"/>
                                                 </connections>
                                             </menuItem>
-                                            <menuItem title="Hue Descending" tag="121" id="80">
+                                            <menuItem title="色調（降順）" tag="121" id="80">
                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                                 <connections>
                                                     <action selector="sortByColor:" target="-2" id="92"/>
                                                 </connections>
                                             </menuItem>
                                             <menuItem isSeparatorItem="YES" id="89"/>
-                                            <menuItem title="Saturation Ascending" tag="122" id="81">
+                                            <menuItem title="彩度（昇順）" tag="122" id="81">
                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                                 <connections>
                                                     <action selector="sortByColor:" target="-2" id="93"/>
                                                 </connections>
                                             </menuItem>
-                                            <menuItem title="Saturation Descending" tag="123" id="82">
+                                            <menuItem title="彩度（降順）" tag="123" id="82">
                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                                 <connections>
                                                     <action selector="sortByColor:" target="-2" id="94"/>
                                                 </connections>
                                             </menuItem>
                                             <menuItem isSeparatorItem="YES" id="90"/>
-                                            <menuItem title="Brightness Ascending" tag="124" id="83">
+                                            <menuItem title="明度（昇順）" tag="124" id="83">
                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                                 <connections>
                                                     <action selector="sortByColor:" target="-2" id="95"/>
                                                 </connections>
                                             </menuItem>
-                                            <menuItem title="Brightness Descending" tag="125" id="85">
+                                            <menuItem title="明度（降順）" tag="125" id="85">
                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                                 <connections>
                                                     <action selector="sortByColor:" target="-2" id="96"/>
@@ -96,17 +96,17 @@
                                     </menu>
                                 </menuItem>
                                 <menuItem isSeparatorItem="YES" id="76"/>
-                                <menuItem title="Rename Palette..." id="30">
+                                <menuItem title="パレットを名称変更..." id="30">
                                     <connections>
                                         <action selector="renamePalette:" target="-2" id="33"/>
                                     </connections>
                                 </menuItem>
-                                <menuItem title="Delete Palette..." id="35">
+                                <menuItem title="パレットを削除..." id="35">
                                     <connections>
                                         <action selector="deletePalette:" target="-2" id="37"/>
                                     </connections>
                                 </menuItem>
-                                <menuItem title="Export Palette…" id="38">
+                                <menuItem title="パレットをエクスポート…" id="38">
                                     <connections>
                                         <action selector="exportPalette:" target="-2" id="40"/>
                                     </connections>
@@ -124,7 +124,7 @@
                         <menu key="menu" title="OtherViews" id="13">
                             <items>
                                 <menuItem title="Item1" id="14"/>
-                                <menuItem title="Item2" state="on" id="15"/>
+                                <menuItem title="Item2" id="15"/>
                                 <menuItem title="Item3" state="on" id="16"/>
                             </items>
                         </menu>

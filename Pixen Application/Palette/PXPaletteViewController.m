@@ -293,10 +293,10 @@ void RGBtoHSV(PXColor c, CGFloat *h, CGFloat *s, CGFloat *v)
 	newPal.isSystemPalette = NO;
 	newPal.canSave = YES;
 	
-	NSString *base = [NSString stringWithFormat:@"%@ Copy", newPal.name];
+	NSString *base = [NSString stringWithFormat:NSLocalizedString(@"%@ Copy", @"%@ Copy"), newPal.name];
 	//FIXME: might not work for other languages
-	if ([newPal.name rangeOfString:@" Copy"].location != NSNotFound) {
-		base = [newPal.name substringToIndex:NSMaxRange([newPal.name rangeOfString:@" Copy"])];
+	if ([newPal.name rangeOfString:NSLocalizedString(@" Copy", @" Copy")].location != NSNotFound) {
+		base = [newPal.name substringToIndex:NSMaxRange([newPal.name rangeOfString:NSLocalizedString(@" Copy", @" Copy")])];
 	}
 	
 	NSString *name = base;

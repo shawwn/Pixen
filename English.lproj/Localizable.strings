@@ -235,6 +235,9 @@
 /* About */
 "VERSION_STRING" = "Version %@";
 
+/* Color Well */
+"COLOR_WELL_PIXEN_COLORS" = "Pixen Colors";
+
 // new
 
 "ADD_FRAME" = "Add Frame";

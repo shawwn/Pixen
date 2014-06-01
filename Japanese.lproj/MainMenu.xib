@@ -318,7 +318,7 @@ CA
                 <menuItem title="ビュー" id="289">
                     <menu key="submenu" title="ビュー" id="288">
                         <items>
-                            <menuItem title="バックグラウンド設定…" id="307">
+                            <menuItem title="背景の設定…" id="307">
                                 <connections>
                                     <action selector="showBackgroundInfo:" target="-1" id="308"/>
                                 </connections>
@@ -360,7 +360,7 @@ CA
                             <menuItem isSeparatorItem="YES" id="296">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="クロスヘアーに揃える" keyEquivalent="a" id="397">
+                            <menuItem title="アライメントガイドに揃える" keyEquivalent="a" id="397">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                 <connections>
                                     <action selector="toggleAlignmentCrosshairs:" target="239" id="408"/>
@@ -692,7 +692,7 @@ CA
                                     <action selector="purchase:" target="239" id="554"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Pixenをもっと詳しく..." id="333">
+                            <menuItem title="Pixenの使い方を学ぶ..." id="333">
                                 <connections>
                                     <action selector="showWelcome:" target="376" id="384"/>
                                 </connections>
