@@ -139,7 +139,6 @@
 
 /* Nearest Neighbor Info */
 "NEAREST_NEIGHBOR_INFO" = "このアルゴリズムは新しい画像の全てのピクセルについて現在の画像から一番近傍のものを選択します。もしスケール値が2のべき乗(2x, 4x, 8x, 16x, ...)でない場合は、崩れた画像が生成されます。スケールを大きくしても見た目を保持したい場合にはこのアルゴリズムは最適です。";
-
 /* Scale2x Info */
 "SCALE2X_INFO" = "このアルゴリズムは元画像にある色のみを使ってよりなめらかな拡大画像を生成します。このアルゴリズムは画像が縦横ともに2のべき乗のスケール値の時のみ使用できます。このアルゴリズムでは縦横両方向に対して2倍に拡大する時に最高の結果が得られます。";
 
@@ -239,8 +238,7 @@
 /* Color Well */
 "COLOR_WELL_PIXEN_COLORS" = "Pixen カラー";
 
-// new
-
+/* Menu & Context menu */
 "ADD_FRAME" = "フレームを追加";
 "HIDE_PREVIOUS_FRAME_OVERLAY" = "直前のフレームオーバーレイを隠す";
 "SHOW_PREVIOUS_FRAME_OVERLAY" = "直前のフレームオーバーレイを表示";
@@ -251,6 +249,30 @@
 
 "HIDE_INFO_BAR" = "情報バーを隠す";
 "SHOW_INFO_BAR" = "情報バーを表示";
+
+/* Background */
+"ALTERNATE_BACKGROUND_INFO" = "テンプレートをここにドラッグすると、マウスをキャンバス外に移動したときの背景が設定出来ます。";
+
+"DEFAULT_ALTERNATE_BACKGROUND" = "デフォルトの作業外の背景";
+
+"BACKGROUND_DELETE_PROMPT" = "%@ 背景テンプレートを本当に削除しますか？";
+"BACKGROUND_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
+
+"BACKGROUND_OVERWRITE_INFORMATIVE_TEXT" = "上書きしますか?";
+"BACKGROUND_OVERWRITE_PROMPT" = "%@ という名前の背景はすでに存在します。";
+
+"PALETTE_DELETE_PROMPT" = "パレット '%@' を本当に削除しますか?";
+"PALETTE_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
+
+"PATTERN_DELETE_PROMPT" = "選択したパターンを本当に削除しますか?";
+"PATTERN_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
+
+/* Buttons */
+"CANCEL" = "キャンセル";
+"DELETE" = "削除";
+"OVERWRITE" = "上書き";
+
+/* localize by word */
 
 "Install" = "インストール";
 "Cancel" = "キャンセル";
@@ -311,25 +333,6 @@
 "BMP image" = "BMP 形式";
 "ICO image" = "ICO 形式";
 "Invalid type (%@)" = "無効なタイプです (%@)";
-
-"ALTERNATE_BACKGROUND_INFO" = "テンプレートをここにドラッグすると、マウスをキャンバス外に移動したときの背景が設定出来ます。";
-
-"DEFAULT_ALTERNATE_BACKGROUND" = "デフォルトの作業外の背景";
-"CANCEL" = "キャンセル";
-"DELETE" = "削除";
-
-"BACKGROUND_OVERWRITE_INFORMATIVE_TEXT" = "上書きしますか?";
-"BACKGROUND_OVERWRITE_PROMPT" = "%@ という名前の背景はすでに存在します。";
-"BACKGROUND_DELETE_PROMPT" = "%@ 背景テンプレートを本当に削除しますか？";
-"BACKGROUND_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
-
-"PALETTE_DELETE_PROMPT" = "パレット '%@' を本当に削除しますか?";
-"PALETTE_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
-
-"PATTERN_DELETE_PROMPT" = "選択したパターンを本当に削除しますか?";
-"PATTERN_DELETE_INFORMATIVE_TEXT" = "この操作は取り消しできません。";
-
-"OVERWRITE" = "上書き";
 
 " Copy" = " のコピー";
 "%@ Copy" = "%@ のコピー";

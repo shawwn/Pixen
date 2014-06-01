@@ -238,8 +238,7 @@
 /* Color Well */
 "COLOR_WELL_PIXEN_COLORS" = "Pixen Colors";
 
-// new
-
+/* Menu & Context menu */
 "ADD_FRAME" = "Add Frame";
 "HIDE_PREVIOUS_FRAME_OVERLAY" = "Hide Previous Frame Overlay";
 "SHOW_PREVIOUS_FRAME_OVERLAY" = "Show Previous Frame Overlay";
@@ -248,20 +247,18 @@
 "DUPLICATE_FRAME" = "Duplicate Frame";
 "DELETE_FRAME" = "Delete Frame";
 
-
 "HIDE_INFO_BAR" = "Hide Info bar";
 "SHOW_INFO_BAR" = "Show Info bar";
 
+/* Background */
 "ALTERNATE_BACKGROUND_INFO" = "Drag a template here, and it will be displayed when the mouse is outside of the canvas.";
 
 "DEFAULT_ALTERNATE_BACKGROUND" = "Default Alternate Background";
 
 "BACKGROUND_DELETE_PROMPT" = "Really delete background template %@?";
 "BACKGROUND_DELETE_INFORMATIVE_TEXT" = "This operation cannot be undone.";
-"CANCEL" = "Cancel";
-"DELETE" = "Delete";
 
-"BACKGROUND_OVERWRITE_INFORMATIVE_TEXT" = @"Would you like to overwrite it?";
+"BACKGROUND_OVERWRITE_INFORMATIVE_TEXT" = "Would you like to overwrite it?";
 "BACKGROUND_OVERWRITE_PROMPT" = "A background with the name %@ already exists.";
 
 "PALETTE_DELETE_PROMPT" = "Are you sure you want to delete the palette '%@'?";
@@ -270,4 +267,9 @@
 "PATTERN_DELETE_PROMPT" = "Are you sure you want to delete the selected pattern?";
 "PATTERN_DELETE_INFORMATIVE_TEXT" = "This operation cannot be undone.";
 
+/* Buttons */
+"CANCEL" = "Cancel";
+"DELETE" = "Delete";
 "OVERWRITE" = "Overwrite";
+
+/* localize by word */
